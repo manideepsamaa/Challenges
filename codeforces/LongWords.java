@@ -22,6 +22,7 @@ public  class LongWords{
             }
 
         }
+        sc.close();
 
     }
 }
