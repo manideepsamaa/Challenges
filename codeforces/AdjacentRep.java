@@ -11,42 +11,13 @@ public class AdjacentRep {
             a[i] = sc.nextInt();
            
         }
-        int g = 0;
         for(int i =  0 ; i<n ; i++){
-            g = a[i];
-            int h=0;
-            while(h<2){
-
-                if((g%2) == 0){
-                    for (int j = 0 ; j<n ; j++){
-                            if(a[j] == g){
-                                a[j] = (a[j] - 1);
-                                
-                            }
-                    }
+            if((a[i]%2) == 0){
+                System.out.print(a[i]-1 + " ");
                 }
-                else{
-                    for (int k = 0 ; k<n ; k++){
-                        if(a[k] == g){
-                            a[k] = (a[k] + 1);
-                            
-                        }
-                    }
+            else{
+                System.out.print(a[i] + " ");
                 }
-                h=h+1;
-                g=g+1;
             }
-            
-        }
-            
-            
-           
-        
-        
-        for(int k = 0 ; k<n ; k++){
-            System.out.print(a[k]+ " ");
-        }
-        sc.close();
-    }   
-    
+    }
 }
