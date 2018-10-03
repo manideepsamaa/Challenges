@@ -4,7 +4,7 @@ public class Infinity {
 
     public static void main(String [] args)
     { 
-        String[] arr = {"purple","green","blue","orange","red",
+        String[] arr = {"purple","green","blue","orange","red",//black and red
         "yellow"};
     
         Scanner sc = new Scanner(System.in);
